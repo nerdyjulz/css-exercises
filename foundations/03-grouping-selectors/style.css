@@ -1,0 +1,16 @@
+/*Class for all objects/buttons*/
+.button {
+    font-family: "Windings", "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+/*Class specifically for Button 1*/
+
+.but1 {
+    background-color: black;
+    color: white;
+}
+/*Class specifically for Button 2*/
+
+.but2 {
+    background-color: yellow;
+}
