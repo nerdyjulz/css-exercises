@@ -5,10 +5,70 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+}
+
+.header{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links{
+  /*border: 2px solid rgb(181, 201, 0);*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-links{
+  /* border: 2px solid rgb(181, 201, 0); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0;
+}
+
+.content>*{
+  padding: 5px 0px;
+}
+
+.footer{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+ul{
+  /* border: 2px solid rgb(79, 249, 255); */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+li{
+  /* border: 2px solid rgb(11, 255, 3); */
+  flex: 1;
+  margin: 0px 5px;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
 }
 
 button {
@@ -16,6 +76,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -25,3 +86,8 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*list-style-type: none; - removes bullets*/
+/*  padding-left: 0; - removes white space on left from <li> elements*/
+/*text-decoration: none; - removes lines under links*/
+/*color:inherit; - removes default blue colour from links*/

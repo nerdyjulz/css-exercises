@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid rgb(255, 145, 0);
 }
 
 .close-button {
@@ -85,8 +86,10 @@ button.cancel {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+  border: 2px solid rgb(255, 145, 0);
 }
 
 .text {
   margin-bottom: 16px;
+  border: 2px solid rgb(255, 145, 0);
 }
