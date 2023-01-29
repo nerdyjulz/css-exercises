@@ -51,12 +51,12 @@ We separated it out here to make it extra clear what has changed. */
 }
 
 .button-container {
-  text-align: center;
+  /*text-align: center;*/
+  margin: 0 auto;
   padding: 8px;
 }
 
 button {
   display: block;
-  margin: 0 auto;
   padding: 8px 24px;
 }
